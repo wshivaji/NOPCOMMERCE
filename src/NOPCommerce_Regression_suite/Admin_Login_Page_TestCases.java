@@ -57,8 +57,9 @@ public class Admin_Login_Page_TestCases extends Parent_Initializations.Initializ
 			File file = new File("ExtentReport/Screnshots/TC0"+TestCaseNumber+".png");
 			File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(screenshotFile, file1);
-			
-			
+			TC02.log(Status.INFO, "Screeenschoot taken successfully");
+			TC02.log(Status.PASS, "Screenshot ok");
+			report.flush();
 		}
 		catch(Exception e){
 			e.printStackTrace();
