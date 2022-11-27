@@ -5,6 +5,7 @@
   		<classes>
   			<class name="Parent_Initializations.Initializations"></class>
   			<class name="NOPCommerce_Regression_suite.Admin_Login_Page_TestCases"></class>
+  			<class name="NOPCommerce_Regression_suite.Dashboard_Page_TestCases"></class>
   		</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

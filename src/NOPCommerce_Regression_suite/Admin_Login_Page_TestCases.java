@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
+import org.junit.AfterClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -94,5 +95,10 @@ public class Admin_Login_Page_TestCases extends Parent_Initializations.Initializ
 		catch(Exception e) {
 			e.printStackTrace();
 		}
+	}
+	
+	@AfterClass
+	public void after_admin_page() {
+		driver.quit();
 	}
 }

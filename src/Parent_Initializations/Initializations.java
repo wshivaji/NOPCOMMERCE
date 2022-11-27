@@ -17,7 +17,7 @@ public class Initializations {
 	public WebDriver driver;
 	public ExtentReports report;
 	public ExtentSparkReporter spark;
-	public int TestCaseNumber = 0;
+	public int TestCaseNumber;
 	
 	@BeforeClass
 	public void Init() {
